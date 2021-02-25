@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  *
  * @package Maupassant
@@ -59,6 +60,28 @@ a:focus {
 
 div {
   box-sizing: border-box; }
+
+.pace .pace-progress {
+  background: #1E92FB;
+  height: 3px; }
+
+.pace .pace-progress-inner {
+  box-shadow: 0 0 10px #1E92FB, 0 0 5px  #1E92FB; }
+
+.pace .pace-activity {
+  border-top-color: #1E92FB;
+  border-left-color: #1E92FB; }
+
+#_music {
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+
+* {
+  cursor: url("https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/cursor/normal.cur"), auto !important; }
+
+:active {
+  cursor: url("https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/cursor/No_Disponible.cur"), auto !important; }
 
 #header {
   padding: 58px 0 0;
