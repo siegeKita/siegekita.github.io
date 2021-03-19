@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kitaの博客</title>
+  
+  
+  <link href="https://siegekita.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://siegekita.github.io/"/>
+  <updated>2021-03-09T06:43:21.773Z</updated>
+  <id>https://siegekita.github.io/</id>
+  
+  <author>
+    <name>科比的小迷弟</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端的自我修养</title>
+    <link href="https://siegekita.github.io/2021/03/09/%E5%89%8D%E7%AB%AF%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
+    <id>https://siegekita.github.io/2021/03/09/%E5%89%8D%E7%AB%AF%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/</id>
+    <published>2021-03-09T06:28:47.774Z</published>
+    <updated>2021-03-09T06:43:21.773Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天给大家分享的主题是前端的自我成长，这是一个关于成长的话题</p><p>很多人都有这样的感觉：听了很多技术圈子的分享，有的有深度，有的循循善诱，深入浅出，但是呢，几年下来，到底哪些用上了，哪些对自己真的有帮助了?反而有些模糊</p><span id="more"></span><p>2015 年我在不同的场合分享了很多内容：有移动端的性能、有适配、有 Web vs Native，也有 hybrid，但是其实我一直比较担心，真正有深度的内容，其实面向的是比较小众的群体，比如说 Hybrid，其实它在大部分公司里面，是只能用现成的</p><p>前端其实是个特别苦逼的职业，因为前端技术一直革命的特别快，新技术、新技巧在不断地被发明出来。之前我有一个朋友，他讲说他对自己的认知是了解前端、熟悉前端、精通前端、熟悉前端、不懂前端。为什么呢，他说当他觉得自己对前端所有的东西觉得无所不知，无所不能的时候，忽然看到了一段代码，他完全无法理解，于是整个世界就崩塌了，从此再也不敢说自己会前端</p><p>我就跟他说，这里，缺少的是一种正确的方法，你觉得无所不知、无所不能的标准是什么，是工作中很久没遇到解决不了的问题么？他说还真是这样。我就又问他，那你系统学过前端么？他想了想，还真没学过，大学里不开这个课。的确如此，到目前为止，还没有任何一个大学会教前端，倒是有些培训班，会讲网页开发三剑客</p><p>关于成长，首先我得发一个免责声明，不是我对我讲的内容没有信心，而是成长是自己的事，英文有句话，在外企工作的人会经常听到，叫做：</p><p>You are the owner of your career.</p><p>你是你职业发展的责任人。这句话潜台词是，你（不是你老板，也不是你爸妈，也不是你女朋友）是你职业发展的责任人</p><p><img src="zhiye.png"></p><p>我们讲前端成长，我认为，主要在两个方面，一部分是“能力”，一部分是“知识”。我个人的观点，能力占百分之八十，知识占百分之二十</p><p>从这个图上，大家可以看到，其实我们认为变化快的东西，最新出来的 Angular、React、ES2015，其实都在知识里面，知识又分成两部分，一部分我把它叫做标准，它是相对而言比较稳定的，很少会出现一个标准被推翻的事情。另一部分则是技术，像是 jQuery、React 这些框架啦，像是 MVC、FLUX 这些架构的东西，这些东西是由各个公司主导的，变化就非常快，你看 Grunt 发展了没多久，Gulp 就来挑战他了，然后又有 browserify、webpack 这些东西</p><p>而我认为占重点的能力，则是非常稳定的，我认为能力是三大块：编程能力、架构能力、工程能力</p><p>编程能力，就是用代码解决问题的能力，你编程能力越强，就能解决越复杂的问题，细分又有调试、算法、数据结构、OS 原理等这些的支撑，你才能解决各种麻烦的问题</p><p>架构能力，则是解决代码规模的问题，当一个系统足够复杂，你会写每一块，能解决每一个问题，不等于你能搞定整个系统，这就需要架构能力，架构能力包含了一些意识，比如解耦、接口隔离，也包含认识业务建立抽象模型，也有一些常见的模式，比如经典的 MVC，还有设计层面，面向对象、设计模式等等</p><p>最后工程能力，则是解决协作的问题，当系统规模更大，光靠一个人，是没办法完成的，如何保证几个高手互相能够配合好？如何保证项目里面水平最差的人不拖后腿？这个工程化建设，往往会跨越多个业务，以汇报关系上的团队为单位来做。包括前后端解耦，模块化，质量保证，代码风格，等等</p><p>其实不难看出来，这三项，其实是有顺序的，低等级、小团队，编程能力一项就能应付，越资深的前端，越大的公司和团队，越是需要后面的技能，但是这里我要强调一点，其实资深前端，大团队，对能力的需求，是既要还要——不是说资深的前端，编程能力就可以变差</p><p>社区总会有一些声音，对工程能力，对架构能力持有一种抵触的态度，觉得比较虚，觉得不需要。实际上以某些人所在的岗位来说，也没错，毕竟公司、团队的状态确实可能用不到，但是以个人成长的角度来看，就是大错特错</p><p><img src="zhiye2.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;今天给大家分享的主题是前端的自我成长，这是一个关于成长的话题&lt;/p&gt;
+&lt;p&gt;很多人都有这样的感觉：听了很多技术圈子的分享，有的有深度，有的循循善诱，深入浅出，但是呢，几年下来，到底哪些用上了，哪些对自己真的有帮助了?反而有些模糊&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="emotion" scheme="https://siegekita.github.io/categories/emotion/"/>
+    
+    
+    <category term="javascript" scheme="https://siegekita.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue引入SVG图片</title>
+    <link href="https://siegekita.github.io/2021/03/05/Vue%E5%BC%95%E5%85%A5SVG%E5%9B%BE%E7%89%87/"/>
+    <id>https://siegekita.github.io/2021/03/05/Vue%E5%BC%95%E5%85%A5SVG%E5%9B%BE%E7%89%87/</id>
+    <published>2021-03-05T09:00:56.701Z</published>
+    <updated>2021-03-05T09:11:55.742Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次来认认真真的研究了下svg图片，之前只是在网上见过，但都是一晃而过也没当回事，现在在实际项目中使用到，这些细节的知识是应该好好研究研究了，先记下目前为止所看到的吧不然又给忘了</p><span id="more"></span><h2 id="SVG的优势"><a href="#SVG的优势" class="headerlink" title="SVG的优势:"></a>SVG的优势:</h2><ol><li>任意放缩<br>用户可以任意缩放图像显示，而不会破坏图像的清晰度、细节等</li><li>文本独立<br>SVG图像中的文字独立于图像，文字保留可编辑和可搜寻的状态。也不会再有字体的限制，用户系统即使没有安装某一字体，也会看到和他们制作时完全相同的画面</li><li>较小文件<br>总体来讲，SVG文件比那些GIF和JPEG格式的文件要小很多，因而下载也很快</li><li>超强显示效果<br>SVG图像在屏幕上总是边缘清晰，它的清晰度适合任何屏幕分辨力和打印分辨力</li><li>超级颜色控制<br>SVG图像提供一个1 600万种颜色的调色板，支持ICC颜色描述文件标准、RGB、线X填充、渐变和蒙版</li></ol><h2 id="实际应用"><a href="#实际应用" class="headerlink" title="实际应用"></a>实际应用</h2><p>通过此包将svg图片生成vue能识别的图片资源</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-svgicon --save-dev</span><br></pre></td></tr></table></figure><p>并配置package.json</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="comment">// 前面一段路径代表着svg所在的文件地址，后面一段地址代表着生成js文件</span></span><br><span class="line">    <span class="string">&quot;svg&quot;</span>: <span class="string">&quot;vsvg -s ./src/assets/icons -t ./src/icons&quot;</span>,</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>启动命令，生成js文件</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run svg</span><br></pre></td></tr></table></figure><p>会在src目录下生成icons文件, 里面存放着index.js文件</p><p>在 main.js文件中配置</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> SvgIcon <span class="keyword">from</span> <span class="string">&#x27;vue-svgicon&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./icons&#x27;</span>   <span class="comment">//引入svg-icon</span></span><br><span class="line"></span><br><span class="line">Vue.use(SvgIcon, &#123;</span><br><span class="line">  tagName: <span class="string">&#x27;svgicon&#x27;</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>vue组件中使用</p><p>注意：name就是svg的文件名</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;svgicon name=<span class="string">&quot;map&quot;</span> color=<span class="string">&quot;pink&quot;</span> width=<span class="string">&quot;200&quot;</span> height=<span class="string">&quot;200&quot;</span>&gt;&lt;/svgicon&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;第一次来认认真真的研究了下svg图片，之前只是在网上见过，但都是一晃而过也没当回事，现在在实际项目中使用到，这些细节的知识是应该好好研究研究了，先记下目前为止所看到的吧不然又给忘了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="svg" scheme="https://siegekita.github.io/tags/svg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解析Excel文件</title>
+    <link href="https://siegekita.github.io/2021/03/03/%E8%A7%A3%E6%9E%90Excel%E6%96%87%E4%BB%B6/"/>
+    <id>https://siegekita.github.io/2021/03/03/%E8%A7%A3%E6%9E%90Excel%E6%96%87%E4%BB%B6/</id>
+    <published>2021-03-03T08:10:40.607Z</published>
+    <updated>2021-03-03T08:40:16.979Z</updated>
+    
+    <content type="html"><![CDATA[<p>通过 el-upload 导入Excel文件，解析成表格数据进行渲染</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-upload</span><br><span class="line">:auto-upload=<span class="string">&#x27;false&#x27;</span></span><br><span class="line">action=<span class="string">&quot;&quot;</span></span><br><span class="line">:show-file-list=<span class="string">&#x27;false&#x27;</span></span><br><span class="line">accept=<span class="string">&quot;xlsx&quot;</span></span><br><span class="line">:limit=<span class="string">&quot;1&quot;</span></span><br><span class="line">:on-change=<span class="string">&#x27;handleChange&#x27;</span></span><br><span class="line">&gt;</span><br><span class="line">导入</span><br><span class="line">&lt;/el-upload&gt;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> XLSX <span class="keyword">from</span> <span class="string">&#x27;xlsx&#x27;</span></span><br><span class="line">handleChange (file, fileList) &#123;</span><br><span class="line">  <span class="comment">// 拿到解析的文件</span></span><br><span class="line">    <span class="keyword">const</span> fileData = fileList[<span class="number">0</span>].raw</span><br><span class="line">    <span class="comment">// 创建FileReader对象</span></span><br><span class="line">    <span class="keyword">const</span> reader = <span class="keyword">new</span> FileReader()</span><br><span class="line">    <span class="comment">// 异步按字节读取文件内容，结果用ArrayBuffer对象表示</span></span><br><span class="line">    reader.readAsArrayBuffer(fileData, <span class="string">&#x27;gbk&#x27;</span>)</span><br><span class="line">    <span class="comment">// 当读取操作成功完成时调用</span></span><br><span class="line">    reader.onload = <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">      <span class="comment">// 使用 XLSX 包解析ArrayBuffer对象</span></span><br><span class="line">        <span class="keyword">const</span> workbook = XLSX.read(e.target.result, &#123;<span class="attr">type</span>: <span class="string">&#x27;array&#x27;</span>&#125;)</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">&#x27;workbook&#x27;</span>, workbook, XLSX)</span><br><span class="line">        <span class="comment">// 将数据导出为json类型</span></span><br><span class="line">        <span class="keyword">let</span> data = XLSX.utils.sheet_to_json(workbook.Sheets.Sheet1)</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">&#x27;data&#x27;</span>, data)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;通过 el-upload 导入Excel文件，解析成表格数据进行渲染&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="element-ui" scheme="https://siegekita.github.io/tags/element-ui/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>element-ui表格导出xlsx文件</title>
+    <link href="https://siegekita.github.io/2021/03/03/element-ui%E8%A1%A8%E6%A0%BC%E5%AF%BC%E5%87%BAxlsx%E6%96%87%E4%BB%B6/"/>
+    <id>https://siegekita.github.io/2021/03/03/element-ui%E8%A1%A8%E6%A0%BC%E5%AF%BC%E5%87%BAxlsx%E6%96%87%E4%BB%B6/</id>
+    <published>2021-03-03T08:01:00.126Z</published>
+    <updated>2021-03-03T08:13:37.003Z</updated>
+    
+    <content type="html"><![CDATA[<p>将element-ui表格展示数据生成Excel文件下载至本地</p><span id="more"></span><p>项目中需要添加 xlsx, file-saver 包</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install xlsx file-saver</span><br></pre></td></tr></table></figure><p>定义方法实现导出功能</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> XLSX <span class="keyword">from</span> <span class="string">&#x27;xlsx&#x27;</span></span><br><span class="line"><span class="keyword">import</span> FileSaver <span class="keyword">from</span> <span class="string">&#x27;file-saver&#x27;</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;*&#125;</span> </span>el 所需要的dom元素, 可以通过ref标记表格获取到元素</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;*&#125;</span> </span>name 导出的文件名</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">hanldDown</span> (<span class="params">el, name</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> wb = XLSX.utils.table_to_book(el)</span><br><span class="line">  <span class="keyword">let</span> wbout = XLSX.write(wb, &#123;</span><br><span class="line">    bookType: <span class="string">&#x27;xlsx&#x27;</span>,</span><br><span class="line">    bookSST: <span class="literal">true</span>,</span><br><span class="line">    type: <span class="string">&#x27;array&#x27;</span></span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  FileSaver.saveAs(</span><br><span class="line">    <span class="keyword">new</span> Blob([wbout], &#123;<span class="attr">type</span>: <span class="string">&#x27;application/octet-stream&#x27;</span> &#125;),</span><br><span class="line">    name + <span class="string">&#x27;.xlsx&#x27;</span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;将element-ui表格展示数据生成Excel文件下载至本地&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="element-ui" scheme="https://siegekita.github.io/tags/element-ui/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-router报错Uncaught (in promise)</title>
+    <link href="https://siegekita.github.io/2021/03/03/vue-router%E6%8A%A5%E9%94%99Uncaught-in-promise/"/>
+    <id>https://siegekita.github.io/2021/03/03/vue-router%E6%8A%A5%E9%94%99Uncaught-in-promise/</id>
+    <published>2021-03-03T07:52:36.151Z</published>
+    <updated>2021-03-03T07:57:21.229Z</updated>
+    
+    <content type="html"><![CDATA[<p>项目中Vue-Router路由跳转控制台会报错 Uncaught (in promise) 解决方法</p><span id="more"></span><p>V3.1.0版本里面新增功能：push和replace方法会返回一个promise, 你可能在控制台看到未捕获的异常。</p><p>对Router原型链上的push、replace方法进行重写，这样就不用每次调用方法都要加上catch</p><p>找到main.js使用的router / index.js文件</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> Router <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"><span class="keyword">import</span> Home <span class="keyword">from</span> <span class="string">&#x27;@/views/home/Home&#x27;</span></span><br><span class="line"><span class="keyword">import</span> Login <span class="keyword">from</span> <span class="string">&#x27;@/views/login/Login&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 重写</span></span><br><span class="line"><span class="keyword">const</span> originalPush = Router.prototype.push</span><br><span class="line">Router.prototype.push = <span class="function"><span class="keyword">function</span> <span class="title">push</span>(<span class="params">location, onResolve, onReject</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (onResolve || onReject) <span class="keyword">return</span> originalPush.call(<span class="built_in">this</span>, location, onResolve, onReject)</span><br><span class="line">  <span class="keyword">return</span> originalPush.call(<span class="built_in">this</span>, location).catch(<span class="function"><span class="params">err</span> =&gt;</span> err)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用</span></span><br><span class="line">Vue.use(Router)</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">new</span> Router(&#123;</span><br><span class="line">  routes: [</span><br><span class="line">    &#123;</span><br><span class="line">      path: <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">      redirect: <span class="string">&#x27;/home&#x27;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      path: <span class="string">&#x27;/home&#x27;</span>,</span><br><span class="line">      name: <span class="string">&#x27;Home&#x27;</span>,</span><br><span class="line">      component: Home</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">      path: <span class="string">&#x27;/login&#x27;</span>,</span><br><span class="line">      name: <span class="string">&#x27;Login&#x27;</span>,</span><br><span class="line">      component: Login</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;项目中Vue-Router路由跳转控制台会报错 Uncaught (in promise) 解决方法&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="vue-router" scheme="https://siegekita.github.io/tags/vue-router/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>循环调用接口生成data</title>
+    <link href="https://siegekita.github.io/2021/03/03/%E5%BE%AA%E7%8E%AF%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3%E7%94%9F%E6%88%90data/"/>
+    <id>https://siegekita.github.io/2021/03/03/%E5%BE%AA%E7%8E%AF%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3%E7%94%9F%E6%88%90data/</id>
+    <published>2021-03-03T07:44:45.129Z</published>
+    <updated>2021-03-03T07:50:14.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>项目开发中遇到的小难点，再次记录下，根据gis提供的数据调用接口接收后端返回的值生成新的data数据再次调用</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 地图绘制，根据 result 数组调用接口将后端返回endObj变成新的data.startObj</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@result</span>: gis提供的数据</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">insertStdPipeSection (result) &#123;</span><br><span class="line">  <span class="keyword">let</span> loopWellIndex = <span class="number">0</span></span><br><span class="line">  <span class="keyword">let</span> data = &#123;</span><br><span class="line">    planCode: store.getters.caseInfo.programmeId,</span><br><span class="line">    riverId: result[<span class="number">0</span>].riverId,</span><br><span class="line">    riverId2: result[<span class="number">0</span>].river2Id,</span><br><span class="line">    startObj: &#123;</span><br><span class="line">      id: result[<span class="number">0</span>].startObjId,</span><br><span class="line">      type: result[<span class="number">0</span>].startObjType</span><br><span class="line">    &#125;,</span><br><span class="line">    pipeSectionObj: &#123;</span><br><span class="line">      feature: result[<span class="number">0</span>].lineFeature</span><br><span class="line">    &#125;,</span><br><span class="line">    endObj: &#123;</span><br><span class="line">      id: result[<span class="number">0</span>].endObjId,</span><br><span class="line">      type: result[<span class="number">0</span>].endObjType,</span><br><span class="line">      feature: result[<span class="number">0</span>].endFeature</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  loopPipeSectionWell(data, result, <span class="string">&#x27;&#x27;</span>, loopWellIndex)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 用于循环请求接口，生成管段</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">loopPipeSectionWell</span> (<span class="params">resultItem, result, endObj, loopWellIndex</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// loopWellIndex 是根据后端调用接口增加的，当最后一次调用完成不应调用 handleUpData方法</span></span><br><span class="line">  <span class="keyword">if</span> (loopWellIndex &lt; result.length) &#123;</span><br><span class="line">    <span class="keyword">let</span> data = loopWellIndex === <span class="number">0</span> ? resultItem : handleUpData(result, endObj, loopWellIndex)</span><br><span class="line">    httpRequest.std.insertStdPipeSectionWell(data)</span><br><span class="line">      .then(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">        loopWellIndex++</span><br><span class="line">        <span class="keyword">return</span> loopPipeSectionWell(resultItem, result, res.data.data.endObj, loopWellIndex)</span><br><span class="line">      &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 跟据后端返回的数据，生成新的data</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleUpData</span> (<span class="params">result, endObj, loopWellIndex</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> data = &#123;</span><br><span class="line">    planCode: store.getters.caseInfo.programmeId,</span><br><span class="line">    riverId: result[loopWellIndex].riverId || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">    riverId2: result[loopWellIndex].river2Id || <span class="string">&#x27;&#x27;</span>,</span><br><span class="line">    startObj: endObj,</span><br><span class="line">    pipeSectionObj: &#123;</span><br><span class="line">      feature: result[loopWellIndex].lineFeature</span><br><span class="line">    &#125;,</span><br><span class="line">    endObj: &#123;</span><br><span class="line">      id: result[loopWellIndex].endObjId,</span><br><span class="line">      type: result[loopWellIndex].endObjType,</span><br><span class="line">      feature: result[loopWellIndex].endFeature</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> data</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;项目开发中遇到的小难点，再次记录下，根据gis提供的数据调用接口接收后端返回的值生成新的data数据再次调用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="ajax" scheme="https://siegekita.github.io/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 主题配置 + 部署</title>
+    <link href="https://siegekita.github.io/2021/02/25/hexo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE-%E9%83%A8%E7%BD%B2/"/>
+    <id>https://siegekita.github.io/2021/02/25/hexo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE-%E9%83%A8%E7%BD%B2/</id>
+    <published>2021-02-25T11:05:41.223Z</published>
+    <updated>2021-02-25T11:13:11.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>通过 hexo 静态博客框架，基于nodejs开发，支持 Markdown，部署到github上，搭建自己个人博客网站</p><span id="more"></span><p>安装 hexo 脚手架工具，为搭建博客准备</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><p>在本地新建一个站点文件夹，在此文件夹下终端, 初始化 hexo 脚手架</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><p>在 <a href="https://hexo.io/zh-cn/">hexo</a> 官方挑选自己喜欢的主题，也可去 github 上寻找自己喜欢的主题</p><ul><li>next 主题是最好上手的，也是热度最高的，网上也有很多针对next主题搭配的教程，我在官网上选的是 Fan 主题，小伙伴可自行挑选</li></ul><p>进入主题的 github 网站, 将项目链接复制下来，在站点文件夹的中输入 </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:<span class="comment">//github.com/fan-lv/Fan.git themes/fan </span></span><br></pre></td></tr></table></figure><ul><li>这段命令即可，themes/fan 是将拉取的项目放至 themes 文件中，fan 文件中</li></ul><p>将站点文件夹中的 _config.yml 中 theme 改为 主题文件夹即可</p><ul><li>我这里是 fan 改为 theme: fan 即可</li><li>需要注意的是拉取主题项目时，看一下它的文档说明，可能缺失一些包导致项目跑不起来<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo s <span class="comment">// 启动服务</span></span><br><span class="line">hexo clean <span class="comment">// 清除缓冲</span></span><br><span class="line">hexo g <span class="comment">// 重新解析文件，这个命令在提交 github 前需要使用</span></span><br></pre></td></tr></table></figure></li></ul><p>配置一键部署上传至 github</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><ul><li><p>在站点文件夹中 _config.yml deploy 中配置</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  repo: 仓库地址</span><br><span class="line">  branch: 分支</span><br></pre></td></tr></table></figure></li><li><p>使用 hexo d 即可上传至github</p></li></ul><p>主题优化与配置</p><p>使用的是 pug 模板语法，主页面中如果不需要此功能，可以去主题文件夹中 _config.yml 和 pug 模板中修改</p><p>配置 关于 about 页面</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page <span class="string">&#x27;about&#x27;</span></span><br></pre></td></tr></table></figure><ul><li>source文件夹中 about 文件夹中 index.md 文件中配置页面信息即可</li></ul><p>配置 标签 tags 页面</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page <span class="string">&#x27;tags&#x27;</span></span><br></pre></td></tr></table></figure><ul><li>source文件夹中 tags 文件夹中 index.md 文件中配置，困扰我许久…<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">---</span><br><span class="line">type: <span class="string">&quot;tags&quot;</span></span><br><span class="line">layout: <span class="string">&quot;tags&quot;</span>  <span class="comment">// 这里是因为主题中有 tag.pug 页面, 配置此字段，即可使用</span></span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ul><p>配置 live2d 人物模型</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm hexo-helper-live2d --save</span><br><span class="line">$ npm live2d-widget-model-wanko --save <span class="comment">// 模型</span></span><br></pre></td></tr></table></figure><ul><li>在站点文件夹中 _config.yml 添加 live2d 配置即可</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">萌宠</span><br><span class="line">live2d:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  scriptFrom: local</span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-wanko</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: <span class="number">150</span></span><br><span class="line">    height: <span class="number">210</span></span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>这几天搭建的 blog 踩坑记录，后续可跟据自己的需求自行扩展</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;通过 hexo 静态博客框架，基于nodejs开发，支持 Markdown，部署到github上，搭建自己个人博客网站&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="hexo" scheme="https://siegekita.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>过滤敏感字符</title>
+    <link href="https://siegekita.github.io/2021/02/25/%E8%BF%87%E6%BB%A4%E6%95%8F%E6%84%9F%E5%AD%97%E7%AC%A6/"/>
+    <id>https://siegekita.github.io/2021/02/25/%E8%BF%87%E6%BB%A4%E6%95%8F%E6%84%9F%E5%AD%97%E7%AC%A6/</id>
+    <published>2021-02-25T10:49:07.778Z</published>
+    <updated>2021-02-26T05:58:19.505Z</updated>
+    
+    <content type="html"><![CDATA[<p>此方法将一段文本通过正则过滤掉敏感字符</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;data&#125;</span> </span>需要过滤的文本字符</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;return&#125;</span> </span>返回一段过滤掉的文本字符</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">filterCharacter (data) &#123;</span><br><span class="line">    <span class="keyword">var</span> pattern = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">&quot;[`~!@#$^&amp;*()=|&#123;&#125;&#x27;:;&#x27;,\\[\\]&lt;&gt;/?~！@#￥……&amp;*（）——|&#123;&#125;【】‘；：”“&#x27;。，、？%]&quot;</span>)</span><br><span class="line">    <span class="keyword">let</span> oldArray = data.toString().trim()</span><br><span class="line">    <span class="keyword">let</span> newArray = <span class="string">&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; oldArray.length; i++) &#123;</span><br><span class="line">    newArray = newArray + oldArray.substr(i, <span class="number">1</span>).replace(pattern, <span class="string">&#x27;&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> newArray</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;此方法将一段文本通过正则过滤掉敏感字符&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="string" scheme="https://siegekita.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue2.0 webpack配置全局变量</title>
+    <link href="https://siegekita.github.io/2021/02/25/vue2-0-webpack%E9%85%8D%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/"/>
+    <id>https://siegekita.github.io/2021/02/25/vue2-0-webpack%E9%85%8D%E7%BD%AE%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</id>
+    <published>2021-02-25T10:40:25.437Z</published>
+    <updated>2021-02-26T07:29:13.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>DefinePlugin这个插件变量替换, 比如dev_port: ‘b’, 你要定义的字符串要写成dev_port: ‘“b”‘, 需要注意: 没有编译的文件是没办法使用这个全局变量的</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.dev.conf.js  开发环境</span></span><br><span class="line"><span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line">    <span class="string">&#x27;process.env&#x27;</span>: <span class="built_in">require</span>(<span class="string">&#x27;../config/dev.env&#x27;</span>),</span><br><span class="line">    <span class="string">&#x27;dev_static&#x27;</span>: <span class="string">&#x27;&quot;../../static&quot;&#x27;</span>  <span class="comment">// 自定义的</span></span><br><span class="line">&#125;),</span><br><span class="line"></span><br><span class="line"><span class="comment">// webpack.port.conf.js  生产环境</span></span><br><span class="line"><span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line">    <span class="string">&#x27;process.env&#x27;</span>: <span class="built_in">require</span>(<span class="string">&#x27;../config/prod.env&#x27;</span>),</span><br><span class="line">    <span class="string">&#x27;dev_static&#x27;</span>: <span class="string">&#x27;&quot;./static&quot;&#x27;</span>  <span class="comment">// 自定义的</span></span><br><span class="line">&#125;),</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;DefinePlugin这个插件变量替换, 比如dev_port: ‘b’, 你要定义的字符串要写成dev_port: ‘“b”‘, 需要注意: 没有编译的文件是没办法使用这个全局变量的&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="webpack" scheme="https://siegekita.github.io/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6 Promise 异步等待机制</title>
+    <link href="https://siegekita.github.io/2021/02/25/ES6-Promise-%E5%BC%82%E6%AD%A5%E7%AD%89%E5%BE%85%E6%9C%BA%E5%88%B6/"/>
+    <id>https://siegekita.github.io/2021/02/25/ES6-Promise-%E5%BC%82%E6%AD%A5%E7%AD%89%E5%BE%85%E6%9C%BA%E5%88%B6/</id>
+    <published>2021-02-25T10:31:14.925Z</published>
+    <updated>2021-02-25T10:37:24.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>async 是“异步”的简写，带async关键字的函数，是声明异步函数，返回值是promise对象，如果async关键字函数返回的不是promise，会自动用Promise.resolve()包装 </p><span id="more"></span><p>await 可以认为是 async wait 的简写。所以应该很好理解 async 用于申明一个 function 是异步的，而 await 用于等待一个异步方法执行完成 ,  如果它等到的是一个 Promise 对象，await 就忙起来了，它会阻塞后面的代码，等着 Promise 对象 resolve，然后得到 resolve 的值，作为 await 表达式的运算结果 </p><ul><li>优点：相对于promise，async/await处理 then 的调用链，代码要清晰很多，几乎和同步代码一样。</li><li>缺点：滥用 await 可能会导致性能问题，因为 await 会阻塞代码</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 异步的, 先打印结束, 后打印 &quot;hello word&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> resolve(<span class="string">&quot;hello word&quot;</span>), <span class="number">2000</span>);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> result = test();</span><br><span class="line"><span class="built_in">console</span>.log(result.then(<span class="function">(<span class="params">val</span>)=&gt;</span>&#123;<span class="built_in">console</span>.log(val)&#125;));</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;结束&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// await 会等待test执行结束, 先打印 &quot;hello word&quot; 再打印 &quot;结束&quot; </span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> resolve(<span class="string">&quot;hello word&quot;</span>), <span class="number">2000</span>);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> result = <span class="keyword">await</span> test();</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;结束&#x27;</span>)</span><br></pre></td></tr></table></figure><p>async / await 实际使用注意点</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 并不是在_initData函数声明 async，因为里面有一个异步函数，所以在里面的函数声明 async 使用 await才不会报错</span></span><br><span class="line">_initData () &#123;</span><br><span class="line">    httpRequest.std.queryStdRainfallStationTable(data)</span><br><span class="line">    .then(<span class="keyword">async</span> res =&gt; &#123;</span><br><span class="line">        <span class="keyword">let</span> tableData = <span class="built_in">this</span>.ProcessingData(res.data.list)</span><br><span class="line">        <span class="built_in">this</span>.tableData.table = tableData</span><br><span class="line">        <span class="comment">// 将降雨过程的数据组装成下拉格式给表格使用 / await等待的是一个Promise对象</span></span><br><span class="line">        <span class="built_in">this</span>.tableData.titleData[<span class="built_in">this</span>.tableData.titleData.length - <span class="number">1</span>].source = <span class="keyword">await</span> <span class="built_in">this</span>.handleProcessDropData()</span><br><span class="line">        <span class="built_in">this</span>.isShow = <span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;,</span><br><span class="line">handleProcessDropData () &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> data = &#123;</span><br><span class="line">      planCode: <span class="built_in">this</span>.programmeId</span><br><span class="line">    &#125;</span><br><span class="line">    httpRequest.std.queryStdRainfallProcessTable(data)</span><br><span class="line">      .then(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">        resolve(res.data)</span><br><span class="line">      &#125;)</span><br><span class="line">      .catch(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">        reject(err)</span><br><span class="line">      &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;async 是“异步”的简写，带async关键字的函数，是声明异步函数，返回值是promise对象，如果async关键字函数返回的不是promise，会自动用Promise.resolve()包装 &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="promise" scheme="https://siegekita.github.io/tags/promise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后端渲染Ⅰ</title>
+    <link href="https://siegekita.github.io/2021/02/25/%E5%90%8E%E7%AB%AF%E6%B8%B2%E6%9F%93%E2%85%A0/"/>
+    <id>https://siegekita.github.io/2021/02/25/%E5%90%8E%E7%AB%AF%E6%B8%B2%E6%9F%93%E2%85%A0/</id>
+    <published>2021-02-25T03:34:09.433Z</published>
+    <updated>2021-03-01T06:17:05.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>前后端不分离的项目，将页面模板（如：ejs）定义好，通过后端语言（如：node.js）将数据set进入模板, 通过后端接口的形式将模板html文件返回给浏览器进行渲染</p><span id="more"></span><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 前台服务 配置 / 相当于中转站</span></span><br><span class="line"><span class="comment">// 前面有：前端页面 后面有：数据库 / 服务器</span></span><br><span class="line"><span class="keyword">let</span> express = <span class="built_in">require</span>(<span class="string">&#x27;express&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> app = express()</span><br><span class="line"></span><br><span class="line"><span class="comment">// node 模块自带的路径</span></span><br><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 将根目录下的文件配置为静态文件 / 要不然 css文件 / 图片 无法使用 / 根目录下拼接地址引用</span></span><br><span class="line">app.use(express.static(path.join(__dirname, <span class="string">&#x27;/&#x27;</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment">// 路由配置</span></span><br><span class="line">app.get(<span class="string">&#x27;/&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123; <span class="comment">// 根路由 / index 文本</span></span><br><span class="line">  <span class="comment">// 将当前的 index 文件返回给请求 3000</span></span><br><span class="line">  res.sendFile(__dirname + <span class="string">&#x27;/index.html&#x27;</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 二级路由 / 返回view下的文件</span></span><br><span class="line">app.get(<span class="string">&#x27;/home&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.sendFile(__dirname + <span class="string">&#x27;/view/home.html&#x27;</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 服务启动</span></span><br><span class="line">app.listen(<span class="number">3000</span>)</span><br></pre></td></tr></table></figure><p>配置热更新</p><ul><li>npm i <code>nodemon</code>  然后在package.json 配置</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">...</span><br><span class="line"><span class="string">&quot;dev&quot;</span>: <span class="string">&quot;nodemon app.js&quot;</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>二级路由文件 使用 静态资源css文件</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 因为在后台配置了静态资源文件，所以在 css 文件夹（根目录下）里面的css文件可以通过 / 访问</span></span><br><span class="line">&lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;/css/home.css&quot;</span>&gt;</span><br></pre></td></tr></table></figure><p>mongodb数据库连接</p><ul><li><p>启动mongoDB 服务</p><ol><li>在安装mongoDB文件中在到 data文件夹下的db文件，复制此路径（没有就新建一个db文件夹）</li><li>在 <code>cmd</code> 窗口中执行此命令 <code>mongod --dbpath “路径地址”</code></li><li>在下面看见光标在闪烁就说明启动成功</li></ol></li><li><p>npm install mongodb</p></li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 本地 app.js 文件</span></span><br><span class="line"><span class="keyword">var</span> MongoClient = <span class="built_in">require</span>(<span class="string">&#x27;mongodb&#x27;</span>).MongoClient;</span><br><span class="line"><span class="keyword">var</span> url = <span class="string">&quot;mongodb://localhost:27017/&quot;</span>; <span class="comment">// 需要提前在本地启动mongodb数据库服务</span></span><br><span class="line">MongoClient.connect(url, <span class="function"><span class="keyword">function</span>(<span class="params">err, db</span>) </span>&#123; <span class="comment">// 连接回调函数</span></span><br><span class="line">    <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">    <span class="keyword">var</span> dbo = db.db(<span class="string">&quot;student&quot;</span>); <span class="comment">// student：数据库名</span></span><br><span class="line">    dbo.collection(<span class="string">&quot;student&quot;</span>).find().toArray(<span class="function"><span class="keyword">function</span>(<span class="params">err, result</span>) </span>&#123; <span class="comment">// 返回集合中所有数据</span></span><br><span class="line">        <span class="keyword">if</span> (err) <span class="keyword">throw</span> err; <span class="comment">// 没用就抛出错误</span></span><br><span class="line">        res.send(result) <span class="comment">// 返回查询的数据</span></span><br><span class="line">        db.close(); <span class="comment">// 关闭库连接</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;前后端不分离的项目，将页面模板（如：ejs）定义好，通过后端语言（如：node.js）将数据set进入模板, 通过后端接口的形式将模板html文件返回给浏览器进行渲染&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="technology" scheme="https://siegekita.github.io/categories/technology/"/>
+    
+    
+    <category term="nodejs" scheme="https://siegekita.github.io/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无感</title>
+    <link href="https://siegekita.github.io/2021/02/25/%E6%97%A0%E6%84%9F/"/>
+    <id>https://siegekita.github.io/2021/02/25/%E6%97%A0%E6%84%9F/</id>
+    <published>2021-02-25T02:45:21.679Z</published>
+    <updated>2021-03-09T07:30:25.378Z</updated>
+    
+    <content type="html"><![CDATA[<p>有人说：“如果还在犹豫不决做当下的决定时，那么便做吧”，这句话有段时间一直在我做决定时脑海中都会浮现出来，这又或许是让我优柔寡断的性格有了一点改变。</p><span id="more"></span><p>“一趟公交车，一段工作记忆”，最近在上班的公交车上偶然碰见了和我一起上班时间，公交车站，到站车站相同的一个妹子，让我对以往糟糕的生活有了新的向往，压抑在心里，直到今天的早上，到站的下车的时候她走在我的前面，我忍不住上前跟她简单的交谈了几句，我知道以后如果碰见她等车的时候，可以上去跟她说说话，述说下对生活的理解。</p><p>昨晚加班在10点到站牌坐车，发现并没有公交车了，只能在走回去的路上发现有没有野生的小电驴了，野生的小电驴倒是没有发现，野生的小姐姐倒是有，让我对加班有了一些兴趣。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;有人说：“如果还在犹豫不决做当下的决定时，那么便做吧”，这句话有段时间一直在我做决定时脑海中都会浮现出来，这又或许是让我优柔寡断的性格有了一点改变。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="emotion" scheme="https://siegekita.github.io/categories/emotion/"/>
+    
+    
+    <category term="心情随笔" scheme="https://siegekita.github.io/tags/%E5%BF%83%E6%83%85%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新篇章</title>
+    <link href="https://siegekita.github.io/2021/02/25/%E6%96%B0%E7%AF%87%E7%AB%A0/"/>
+    <id>https://siegekita.github.io/2021/02/25/%E6%96%B0%E7%AF%87%E7%AB%A0/</id>
+    <published>2021-02-25T00:38:19.608Z</published>
+    <updated>2021-03-09T07:30:34.411Z</updated>
+    
+    <content type="html"><![CDATA[<p>2021年的第一篇日志，比以往时候来得要早一些。近日十分不饱和的工作内容，给予了我充分的摸鱼时间，得以各种填坑和更新。跟两年前的年关相似，又处在了一个变化的当口，只不过现在的心态愈发淡然，天命有归，随波逐流。</p><span id="more"></span><p>据说杂乱而细密的掌纹预示着操心的命，最近几年深有体会——有时睡前会思虑良久，辗转反侧，竟导致睡眠短浅，醒后回想无非是杞人忧天，倒不如抛之脑后，没心没肺地做个美梦。不知道这样的心境是否会影响阳寿，只希望上天对我在头发逃离和变白的速度方面能够施以仁慈。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;2021年的第一篇日志，比以往时候来得要早一些。近日十分不饱和的工作内容，给予了我充分的摸鱼时间，得以各种填坑和更新。跟两年前的年关相似，又处在了一个变化的当口，只不过现在的心态愈发淡然，天命有归，随波逐流。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="emotion" scheme="https://siegekita.github.io/categories/emotion/"/>
+    
+    
+    <category term="心情随笔" scheme="https://siegekita.github.io/tags/%E5%BF%83%E6%83%85%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>

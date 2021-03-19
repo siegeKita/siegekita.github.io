@@ -129,7 +129,7 @@ div {
   padding-bottom: 20px;
   word-wrap: break-word; }
   #sidebar .widget {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     #sidebar .widget .widget-title {
       color: #6E7173;
       line-height: 2.7;
@@ -147,7 +147,11 @@ div {
       display: block;
       font-weight: normal; }
     #sidebar .widget .tagcloud {
-      margin-top: 10px; }
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
       #sidebar .widget .tagcloud a {
         line-height: 1.5;
         padding: 5px; }
