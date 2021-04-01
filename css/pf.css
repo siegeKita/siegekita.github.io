@@ -39,3 +39,11 @@
   font-style: normal;
   src: url('../font/PingFang\ Regular_0.ttf')
 }
+
+@font-face{
+  font-family: 'guanyuan';
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('../font/guoyuan.ttf')
+}

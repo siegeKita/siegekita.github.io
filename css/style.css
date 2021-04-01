@@ -72,16 +72,16 @@ div {
   border-top-color: #1E92FB;
   border-left-color: #1E92FB; }
 
-#_music {
-  position: fixed;
-  bottom: 0;
-  left: 0; }
-
 * {
   cursor: url("https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/cursor/normal.cur"), auto !important; }
 
 :active {
   cursor: url("https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/cursor/No_Disponible.cur"), auto !important; }
+
+*::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #0085a1; }
 
 #header {
   padding: 58px 0 0;
@@ -203,7 +203,22 @@ div {
     text-align: left;
     font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
     .post .post-title a {
-      color: #555; }
+      color: #555;
+      position: relative; }
+      .post .post-title a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #222;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out; }
+      .post .post-title a:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left; }
   .post .post-meta {
     padding: 0;
     margin: 15px 0 0;
@@ -788,15 +803,17 @@ pre {
     background: #F8F8F8;
     border-bottom-color: #D26911; }
 
-/* syntax highlight*/
+/* syntax highlight daim1 代码样式修改*/
 figure.highlight,
 .codeblock {
-  background: #f7f8f8;
+  background: #f2f2f2;
   margin: 10px 0;
   line-height: 1.1em;
   color: #333;
   padding-top: 15px;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid #e7e7e7; }
   figure.highlight table,
   .codeblock table {
     display: block;
@@ -810,7 +827,7 @@ figure.highlight,
   .codeblock .code,
   .codeblock .tag {
     background-color: inherit;
-    font-family: Menlo, Consolas, monospace;
+    font-family: "guanyuan";
     border: none;
     padding: 0;
     margin: 0;
@@ -825,18 +842,19 @@ figure.highlight,
     display: none; }
   figure.highlight figcaption,
   .codeblock figcaption {
-    font-size: 13px;
+    font-size: 14px;
     padding: 0 15px 20px;
     margin: 0;
-    background: #f7f8f8;
-    color: #999999; }
+    background: #f2f2f2;
+    color: #222; }
     figure.highlight figcaption a,
     .codeblock figcaption a {
       float: right;
       color: #01579f; }
   figure.highlight .gutter,
   .codeblock .gutter {
-    background: #f7f8f8;
+    font-size: 24px;
+    background: #f2f2f2;
     border-right: 1px solid #e6e6e6;
     padding: 0.3em 15px;
     user-select: none; }
@@ -846,6 +864,7 @@ figure.highlight,
     width: 100%; }
     figure.highlight .code pre,
     .codeblock .code pre {
+      font-size: 24px;
       max-width: 700px;
       overflow-x: auto;
       overflow-y: hidden; }
