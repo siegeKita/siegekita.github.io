@@ -6,41 +6,6 @@
 }
 
 @font-face{
-  font-family: 'PingFangExtraLight';
-  font-weight: none;
-  font-style: normal;
-  src: url('../font/PingFang\ ExtraLight_0.ttf')
-}
-
-@font-face{
-  font-family: 'PingFangHeavy';
-  font-weight: none;
-  font-style: normal;
-  src: url('../font/PingFang\ Heavy_0.ttf')
-}
-
-@font-face{
-  font-family: 'PingFangLight';
-  font-weight: none;
-  font-style: normal;
-  src: url('../font/PingFang\ Light_0.ttf')
-}
-
-@font-face{
-  font-family: 'PingFangMedium';
-  font-weight: none;
-  font-style: normal;
-  src: url('../font/PingFang\ Medium_0.ttf')
-}
-
-@font-face{
-  font-family: 'PingFangRegular';
-  font-weight: none;
-  font-style: normal;
-  src: url('../font/PingFang\ Regular_0.ttf')
-}
-
-@font-face{
   font-family: 'guanyuan';
   font-weight: 900;
   font-style: italic;
